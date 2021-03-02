@@ -20,22 +20,22 @@ int main()
 	cout << "Enter the variable X =";
 
 	while (!(cin >> x))
-	{
-		cin.clear();
-		while (cin.get() != '\n');
-		cout << "Error! A letter is entered, repeat the input" << endl;
-		cout << "Enter the variable X =";
-	}
+		{
+			cin.clear();
+			while (cin.get() != '\n');
+			cout << "Error! A letter is entered, repeat the input" << endl;
+			cout << "Enter the variable X =";
+		}
 
 	cout << "Enter the variable Y =";
 
 	while (!(cin >> y))
-	{
-		cin.clear();
-		while (cin.get() != '\n');
-		cout << "Error!A letter is entered, repeat the input" << endl;
-		cout << "Enter the variable Y =";
-	}
+		{
+			cin.clear();
+			while (cin.get() != '\n');
+			cout << "Error!A letter is entered, repeat the input" << endl;
+			cout << "Enter the variable Y =";
+		}
 
 
 	iph = atan2(y, x);
