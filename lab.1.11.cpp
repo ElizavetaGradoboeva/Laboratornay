@@ -38,7 +38,7 @@ int main()
 		}
 
 
-	iph = atan2(y, x);
+	iph = atan2(y, x) * 180 / PI;
 	z = sqrt(x * y + y * y);
 	X = sqrt(z) * cos((iph + 2 * PI) / 2);
 	Y = sqrt(z) * sin((iph + 2 * PI) / 2);
