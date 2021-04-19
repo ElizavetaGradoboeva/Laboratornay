@@ -154,19 +154,19 @@ int main()
 
 	cout << "Сумма комплексных чисел: ";
 
-	summa(chislo1, chislo2, right: true);
+	summa(chislo1, chislo2, true);
 
 	cout << "Разность комплексных чисел:";
 
-	subtraction(chislo1, chislo2, right: true);
+	subtraction(chislo1, chislo2,  true);
 
 	cout << "Произведение комплексных чисел: ";
 
-	multiplication(chislo1, chislo2, right: true);
+	multiplication(chislo1, chislo2,  true);
 	
 	cout << "Деление комплексных чисел: ";
 
-	division (chislo1, chislo2, right: true);
+	division (chislo1, chislo2,  true);
 
 	return 0;
 }
